@@ -1,5 +1,3 @@
-import './style.css';
-
 const products = [
   { id: 1, name: 'مصباح أورا الطاولة', price: 189, category: 'home', art: 'lamp-art', badge: 'الأكثر طلباً' },
   { id: 2, name: 'طقم أكواب الصباح', price: 95, category: 'home', art: 'cups-art' },
