@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#161223" />
+    <title>نُقطة | كل ما تحب في مكان واحد</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="announcement"><span>شحن مجاني للطلبات فوق 250 ر.س</span><span class="dot">•</span><span>استبدال وإرجاع خلال 14 يوم</span></div>
+    <header class="header">
+      <a class="brand" href="#top" aria-label="نقطة، الصفحة الرئيسية"><span class="brand-mark">ن</span><span>نُقطة</span></a>
+      <nav class="nav" aria-label="التنقل الرئيسي"><a href="#products">المتجر</a><a href="#categories">التصنيفات</a><a href="#story">قصتنا</a><a href="#footer">تواصل معنا</a></nav>
+      <div class="header-actions"><button class="search-button" aria-label="بحث">⌕</button><button class="account-button" id="openAuth">دخول <span>↗</span></button><button class="cart-button" id="openCart" aria-label="السلة"><span>👜</span><b id="cartCount">0</b></button></div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">مجموعة الخريف · 2026</p>
+          <h1>اختيارات صغيرة<br />تصنع <em>فرقاً كبيراً.</em></h1>
+          <p class="hero-text">منتجات منتقاة بعناية لتضيف جمالاً وراحة إلى تفاصيلك اليومية.</p>
+          <div class="hero-actions"><a class="primary-btn" href="#products">تسوّق الآن <span>←</span></a><a class="text-btn" href="#story">اكتشف قصتنا <span>↙</span></a></div>
+          <div class="social-proof"><div class="avatars"><i>ل</i><i>م</i><i>ر</i><i>س</i></div><div><strong>+15,000</strong><span>عميل يثقون بنُقطة</span></div></div>
+        </div>
+        <div class="hero-art" aria-label="منتجات مختارة"><div class="sun"></div><div class="arch"></div><div class="vase"><span></span></div><div class="lamp"><i></i></div><div class="shelf"><div class="book book-one"></div><div class="book book-two"></div><div class="cup"></div></div><div class="hero-label">صُنع بحُب<br /><b>لبيتك</b></div></div>
+      </section>
+      <section class="categories section" id="categories"><div class="section-heading"><div><p class="eyebrow">تسوّق حسب الاهتمام</p><h2>كل زاوية لها حكاية</h2></div><a href="#products">عرض الكل ←</a></div><div class="category-grid"><a href="#products" class="category cat-home"><span>للمنزل</span><small>48 منتج</small></a><a href="#products" class="category cat-care"><span>عناية وجمال</span><small>32 منتج</small></a><a href="#products" class="category cat-life"><span>أسلوب حياة</span><small>27 منتج</small></a><a href="#products" class="category cat-gift"><span>هدايا مميزة</span><small>18 منتج</small></a></div></section>
+      <section class="products section" id="products"><div class="section-heading"><div><p class="eyebrow">وصل حديثاً</p><h2>منتجات ستقع في حبّها</h2></div><div class="filters"><button class="filter active" data-filter="all">الكل</button><button class="filter" data-filter="home">للمنزل</button><button class="filter" data-filter="care">عناية</button><button class="filter" data-filter="life">أسلوب حياة</button></div></div><div class="product-grid" id="productGrid"></div></section>
+      <section class="story" id="story"><div class="story-art"><span class="blob"></span><span class="plant p1">⌇</span><span class="plant p2">⌇</span><div class="frame">NQ</div><p>less, but better.</p></div><div class="story-copy"><p class="eyebrow">فلسفتنا البسيطة</p><h2>نختار ما يستحق<br />مكاناً في حياتك.</h2><p>في نُقطة، نؤمن بأن الأشياء التي نحيط أنفسنا بها يجب أن تكون جميلة، عملية، وأن تحكي شيئاً عنّا. لهذا نبحث عن القطع التي تجمع التصميم الهادئ والجودة التي تدوم.</p><a href="#footer" class="text-btn">تعرف علينا أكثر <span>←</span></a></div></section>
+      <section class="benefits section"><div><span>✦</span><h3>دفع آمن</h3><p>خيارات دفع موثوقة ومشفّرة</p></div><div><span>⌁</span><h3>شحن سريع</h3><p>يصلك طلبك خلال 2–4 أيام</p></div><div><span>♡</span><h3>اختيار بعناية</h3><p>منتجات نحبها قبل أن نعرضها</p></div></section>
+    </main>
+    <footer id="footer"><div class="footer-top"><a class="brand" href="#top"><span class="brand-mark">ن</span><span>نُقطة</span></a><p>مساحتك الصغيرة لكل ما هو جميل وبسيط.</p><form id="newsletter"><label for="email">وصلك الجديد أولاً</label><div><input id="email" type="email" required placeholder="بريدك الإلكتروني" /><button>اشترك ←</button></div><small id="newsletterMessage"></small></form></div><div class="footer-bottom"><span>© 2026 نُقطة. جميع الحقوق محفوظة.</span><span>الخصوصية &nbsp; الشروط</span></div></footer>
+    <aside class="cart-drawer" id="cartDrawer" aria-label="سلة التسوق"><div class="drawer-header"><h2>سلتك <small id="cartItemsLabel">0 منتجات</small></h2><button class="close" data-close="cartDrawer">×</button></div><div id="cartItems" class="cart-items"><p class="empty">سلتك تنتظر أول اختيار جميل ✦</p></div><div class="cart-summary"><div><span>المجموع</span><strong id="cartTotal">0 ر.س</strong></div><button class="checkout-btn" id="checkout">إتمام الطلب <span>←</span></button></div></aside>
+    <div class="overlay" id="overlay"></div>
+    <section class="auth-modal" id="authModal" aria-modal="true" role="dialog"><button class="close auth-close" data-close="authModal">×</button><div class="auth-logo"><span class="brand-mark">ن</span></div><div id="authStepOne"><p class="eyebrow">مرحباً بك</p><h2>سجّل دخولك إلى نُقطة</h2><p>أدخل بريدك الإلكتروني أو رقم واتساب وسنرسل لك رمز تحقق آمن.</p><div class="method-switch"><button class="method active" data-method="email">البريد الإلكتروني</button><button class="method" data-method="whatsapp">واتساب</button></div><form id="authForm"><label id="authLabel" for="authInput">البريد الإلكتروني</label><input id="authInput" type="email" required placeholder="name@example.com" /><button class="primary-btn" type="submit">إرسال رمز التحقق <span>←</span></button></form><small class="secure-note">♢ لن تحتاج إلى كلمة مرور أبداً</small></div><div id="authStepTwo" hidden><button class="back" id="backToAuth">← تعديل البيانات</button><p class="eyebrow">تحقق من حسابك</p><h2>أدخل الرمز المكوّن من 4 أرقام</h2><p id="sentTo"></p><form id="otpForm"><div class="otp-inputs"><input inputmode="numeric" maxlength="1" autofocus /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /><input inputmode="numeric" maxlength="1" /></div><button class="primary-btn" type="submit">تأكيد والدخول <span>←</span></button></form><button class="resend" id="resend">إعادة إرسال الرمز</button><small class="demo-code">للتجربة: استخدم الرمز <b>1234</b></small></div></section>
+    <div id="toast" role="status"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
